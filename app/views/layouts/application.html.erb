@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>EmberTree</title>
+  <title> Test App</title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
@@ -9,6 +9,6 @@
 <body>
 
 <%= yield %>
-
+<%= javascript_include_tag 'jquery.jstree','tree_builder' %>
 </body>
 </html>

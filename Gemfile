@@ -1,7 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.11'
-
+gem 'haml-rails'
+gem 'jquery-rails'
+gem 'formtastic'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
